@@ -16,16 +16,6 @@ public class YatziTest {
     }
 
     @Test
-    void CheckIfYatziWorks() {
-        Dice[] dices = new Dice[5];
-        for (int i = 0; i < dices.length; i++) {
-            dices[i] = new Dice();
-            dices[i].setValue(6);
-        }
-        assertTrue(YatziMain.YatziOrNot(dices));
-    }
-
-    @Test
     void Yatzi() {
         Dice[] allDices = {new Dice(),new Dice(), new Dice(), new Dice(), new Dice()};
         for (Dice Dice : allDices) {

@@ -1,6 +1,6 @@
 package com.company;
 import java.util.Scanner;
-
+//Islam Mohamed
 public class YatziMain {
     private static final Scanner sc = new Scanner(System.in);
     private static final Dice[] dices = new Dice[5];
