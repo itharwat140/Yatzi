@@ -25,8 +25,6 @@ public class YatziTest {
         assertTrue(YatziMain.YatziOrNot(dices));
     }
 
-
-
     @Test
     void Yatzi() {
         Dice[] allDices = {new Dice(),new Dice(), new Dice(), new Dice(), new Dice()};
