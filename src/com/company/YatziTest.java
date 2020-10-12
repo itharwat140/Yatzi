@@ -34,7 +34,6 @@ public class YatziTest {
             Dice.setValue(6);
         }
         assertTrue(YatziMain.YatziOrNot(allDices));
-
     }
 }
 
